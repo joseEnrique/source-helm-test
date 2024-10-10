@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: agentversions
+  name: chart_version
   namespace: argocd
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
